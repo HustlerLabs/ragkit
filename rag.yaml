@@ -1,0 +1,21 @@
+project:
+  name: my-rag-app
+
+model:
+  provider: openrouter
+  model: openai/gpt-4o-mini
+
+sources:
+  - markdown
+
+pipeline:
+  chunk_size: 500
+  overlap: 50
+
+retrieval:
+  top_k: 5
+  method: vector  # vector | hybrid
+
+cache:
+  enabled: true
+  ttl: 3600
