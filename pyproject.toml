@@ -9,7 +9,7 @@ description = "Universal RAG framework SDK for Python developers"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
-authors = [{ name = "Hustler Agency", email = "hello@hustler.agency" }]
+authors = [{ name = "Igor ADANDE", email = "igoradande44@gmail.com" }]
 keywords = ["rag", "llm", "ai", "retrieval", "embeddings"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -46,6 +46,12 @@ dev = [
 
 [project.scripts]
 rag = "ragkit.cli.main:app"
+
+[project.urls]
+Homepage = "https://ragkit.igoradande.me"
+Documentation = "https://ragkit.igoradande.me"
+Repository = "https://github.com/HustlerLabs/ragkit"
+Issues = "https://github.com/HustlerLabs/ragkit/issues"
 
 [project.entry-points."ragkit.plugins"]
 # placeholder for third-party plugins
