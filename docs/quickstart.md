@@ -14,7 +14,7 @@ Get your first RAGKit agent running in under 5 minutes.
 ## 1. Install
 
 ```bash
-pip install ragkit
+pip install ragkit-sdk
 ```
 
 ---
@@ -141,7 +141,7 @@ print(response)
     ```bash
     python -m venv .venv
     source .venv/bin/activate
-    pip install ragkit
+    pip install ragkit-sdk
     rag --help
     ```
     Or run via Python: `python -m ragkit --help`

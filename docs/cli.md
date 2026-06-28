@@ -129,7 +129,7 @@ rag serve [--host HOST] [--port PORT] [--config PATH]
 **Requires the `serve` extra:**
 
 ```bash
-pip install ragkit[serve]
+pip install ragkit-sdk[serve]
 ```
 
 **Usage:**

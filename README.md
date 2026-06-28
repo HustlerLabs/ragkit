@@ -6,7 +6,7 @@ Build AI-powered assistants, document search, and FAQ systems in minutes — wit
 
 [![CI](https://github.com/HustlerLabs/ragkit/actions/workflows/ci.yml/badge.svg)](https://github.com/HustlerLabs/ragkit/actions)
 [![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen)](https://github.com/HustlerLabs/ragkit)
-[![PyPI](https://img.shields.io/pypi/v/ragkit)](https://pypi.org/project/ragkit/)
+[![PyPI](https://img.shields.io/pypi/v/ragkit-sdk)](https://pypi.org/project/ragkit-sdk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
@@ -27,7 +27,7 @@ Your Data → RAGKit → Answer
 ## Quick Start
 
 ```bash
-pip install ragkit
+pip install ragkit-sdk
 rag init
 ```
 
@@ -70,14 +70,14 @@ That's it. **No vector database setup. No embedding model download configuration
 ## Installation
 
 ```bash
-pip install ragkit
+pip install ragkit-sdk
 ```
 
 **Optional extras:**
 
 ```bash
-pip install ragkit[serve]    # HTTP server (FastAPI + uvicorn)
-pip install ragkit[qdrant]   # Qdrant vector store
+pip install ragkit-sdk[serve]    # HTTP server (FastAPI + uvicorn)
+pip install ragkit-sdk[qdrant]   # Qdrant vector store
 ```
 
 ---
