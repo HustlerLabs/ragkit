@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/</loc>
+         <loc>https://ragkit.igoradande.me/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/api-reference/</loc>
+         <loc>https://ragkit.igoradande.me/api-reference/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/changelog/</loc>
+         <loc>https://ragkit.igoradande.me/changelog/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/cli/</loc>
+         <loc>https://ragkit.igoradande.me/cli/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/configuration/</loc>
+         <loc>https://ragkit.igoradande.me/configuration/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/contributing/</loc>
+         <loc>https://ragkit.igoradande.me/contributing/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/models/</loc>
+         <loc>https://ragkit.igoradande.me/models/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/pipeline/</loc>
+         <loc>https://ragkit.igoradande.me/pipeline/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/plugins/</loc>
+         <loc>https://ragkit.igoradande.me/plugins/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/quickstart/</loc>
+         <loc>https://ragkit.igoradande.me/quickstart/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
     <url>
-         <loc>https://hustlerlabs.github.io/ragkit/sources/</loc>
+         <loc>https://ragkit.igoradande.me/sources/</loc>
          <lastmod>2026-06-28</lastmod>
     </url>
 </urlset>
