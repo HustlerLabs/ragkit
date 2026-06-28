@@ -4,7 +4,11 @@
 
 set -euo pipefail
 
-RAG=".venv/bin/rag"
+if [ -f ".venv/bin/rag" ]; then
+    RAG=".venv/bin/rag"
+else
+    RAG="rag"
+fi
 PASS=0
 FAIL=0
 TMPDIR=$(mktemp -d)

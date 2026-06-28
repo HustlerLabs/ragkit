@@ -4,7 +4,11 @@ from ragkit.core.base import Document, VectorStore
 
 
 class ChromaStore(VectorStore):
-    def __init__(self, collection_name: str = "ragkit", persist_directory: str = ".ragkit_chroma") -> None:
+    def __init__(
+        self,
+        collection_name: str = "ragkit",
+        persist_directory: str = ".ragkit_chroma",
+    ) -> None:
         self.collection_name = collection_name
         self.persist_directory = persist_directory
         self._client = None

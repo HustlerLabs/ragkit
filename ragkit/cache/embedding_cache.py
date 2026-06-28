@@ -8,7 +8,11 @@ from ragkit.core.base import EmbeddingProvider
 
 
 class CachedEmbedder(EmbeddingProvider):
-    def __init__(self, embedder: EmbeddingProvider, cache_dir: str = ".ragkit_cache/embeddings") -> None:
+    def __init__(
+        self,
+        embedder: EmbeddingProvider,
+        cache_dir: str = ".ragkit_cache/embeddings",
+    ) -> None:
         self._embedder = embedder
         self._cache = diskcache.Cache(cache_dir)
 

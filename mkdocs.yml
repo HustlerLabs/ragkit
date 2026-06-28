@@ -1,8 +1,8 @@
 site_name: RAGKit
 site_description: Universal RAG framework SDK for Python
-site_url: https://adandeigor.github.io/ragkit
-repo_url: https://github.com/adandeigor/ragkit
-repo_name: adandeigor/ragkit
+site_url: https://hustlerlabs.github.io/ragkit
+repo_url: https://github.com/HustlerLabs/ragkit
+repo_name: HustlerLabs/ragkit
 edit_uri: edit/main/docs/
 
 theme:

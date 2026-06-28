@@ -4,8 +4,8 @@
 
 Build AI-powered assistants, document search, and FAQ systems in minutes — without rewriting the pipeline for every project.
 
-[![CI](https://github.com/adandeigor/ragkit/actions/workflows/ci.yml/badge.svg)](https://github.com/adandeigor/ragkit/actions)
-[![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen)](https://github.com/adandeigor/ragkit)
+[![CI](https://github.com/HustlerLabs/ragkit/actions/workflows/ci.yml/badge.svg)](https://github.com/HustlerLabs/ragkit/actions)
+[![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen)](https://github.com/HustlerLabs/ragkit)
 [![PyPI](https://img.shields.io/pypi/v/ragkit)](https://pypi.org/project/ragkit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
@@ -170,7 +170,7 @@ rag serve --host 0.0.0.0        # HTTP API on /ask
 
 ## Documentation
 
-Full documentation: **[adandeigor.github.io/ragkit](https://adandeigor.github.io/ragkit)**
+Full documentation: **[hustlerlabs.github.io/ragkit](https://hustlerlabs.github.io/ragkit)**
 
 - [Quick Start](docs/quickstart.md)
 - [Configuration reference](docs/configuration.md)
@@ -197,7 +197,7 @@ Full documentation: **[adandeigor.github.io/ragkit](https://adandeigor.github.io
 Contributions are welcome. See [CONTRIBUTING](docs/contributing.md) for guidelines.
 
 ```bash
-git clone https://github.com/adandeigor/ragkit
+git clone https://github.com/HustlerLabs/ragkit
 cd ragkit
 pip install -e ".[dev]"
 pytest tests/

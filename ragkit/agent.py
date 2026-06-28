@@ -1,7 +1,7 @@
 from __future__ import annotations
 
+from collections.abc import AsyncIterator
 from pathlib import Path
-from typing import AsyncIterator
 
 from ragkit.cache.embedding_cache import CachedEmbedder
 from ragkit.cache.query_cache import QueryCache
@@ -102,7 +102,12 @@ class Agent:
         self._model = provider
         return self
 
-    def configure(self, chunk_size: int | None = None, overlap: int | None = None, top_k: int | None = None) -> Agent:
+    def configure(
+        self,
+        chunk_size: int | None = None,
+        overlap: int | None = None,
+        top_k: int | None = None,
+    ) -> Agent:
         if chunk_size is not None:
             self._config.pipeline.chunk_size = chunk_size
         if overlap is not None:
@@ -128,7 +133,10 @@ class Agent:
 
     def index(self) -> list[Document]:
         if not self._sources:
-            logger.warning("index_called_without_sources", hint="Call agent.use(source) before agent.index()")
+            logger.warning(
+                "index_called_without_sources",
+                hint="Call agent.use(source) before agent.index()",
+            )
             return []
 
         all_docs: list[Document] = []
